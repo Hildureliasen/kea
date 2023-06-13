@@ -1,0 +1,395 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(167deg, #1a1818 0%, #acacac 100%);
+  background-repeat: no-repeat;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-family: "antipol-variable", sans-serif;
+  font-variation-settings: "STCH" 1, "wght" 700, "wdth" 135;
+  font-size: 55px;
+  color: #ffb000;
+}
+
+h2 {
+  font-family: "antipol-variable", sans-serif;
+  font-variation-settings: "STCH" 1, "wght" 700, "wdth" 135;
+  font-size: 28px;
+  color: #ffb000;
+  text-align: center;
+  margin-top: 20%;
+}
+
+h3 {
+  font-family: "antipol-variable", sans-serif;
+  font-variation-settings: "STCH" 1, "wght" 700, "wdth" 135;
+  font-size: 20px;
+  color: #ecebe8;
+  text-align: center;
+}
+
+h4 {
+  font-size: 18px;
+  color: #ecebe8;
+  font-family: "josefin-sans", sans-serif;
+  font-style: normal;
+  line-height: 20px;
+  margin-bottom: 3%;
+}
+
+p {
+  font-size: 14px;
+  color: #ecebe8;
+  font-family: "josefin-sans", sans-serif;
+  font-style: normal;
+  line-height: 20px;
+}
+
+.bottons {
+  display: grid;
+  padding: 25%;
+
+  gap: 20%;
+  position: relative;
+  margin-top: -30%;
+}
+
+.main_index {
+  padding-top: 90%;
+}
+
+.hildur {
+  width: 100%;
+  top: -20%;
+  z-index: -100;
+}
+
+.om_mig {
+  display: grid;
+  max-width: 145%;
+  margin-top: 15%;
+  z-index: 100;
+}
+
+.text_1 {
+  background-color: #1a1818;
+  padding-left: 10%;
+  /* padding-top: 5%; */
+  text-align: right;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 3%;
+}
+
+.t2 {
+  display: grid;
+  grid-row: 2;
+  grid-column: 1;
+}
+
+.gul_line {
+  width: 40%;
+  display: grid;
+  grid-row: 1 / span2;
+}
+
+/*********projekter**********/
+
+.grid {
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  color: #ecebe8;
+}
+
+.grid-item img {
+  width: 200px;
+  height: auto;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
+  padding: 5%;
+}
+
+.grid-item {
+  position: relative;
+  overflow: hidden;
+}
+
+.grid-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.grid-item .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #1a18185a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid-item .overlay a {
+  color: #ecebe8;
+  font-family: "josefin-sans", sans-serif;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.projekter {
+  margin-top: 20%;
+}
+
+/*******sider********/
+
+.text_2 {
+  max-width: 70%;
+  text-align: right;
+  margin-left: 22%;
+  margin-top: 10%;
+}
+
+.text_2 {
+  display: grid;
+  gap: 8%;
+  /* grid-template-rows: 1fr 1fr; */
+}
+
+.blue_line {
+  width: 80%;
+  left: 20%;
+  position: relative;
+  top: -5%;
+}
+
+.blue_lines {
+  width: 80%;
+  left: 35%;
+  position: relative;
+}
+
+.doppel_bla {
+  width: 80%;
+  left: -15%;
+  position: relative;
+}
+
+.link_web {
+  text-decoration: underline;
+  color: #2673ff;
+}
+
+/*****web*****/
+.grid_1 {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 8%;
+}
+
+.grid_4 {
+  max-width: 80%;
+  text-align: center;
+  margin: auto;
+  padding: 5%;
+}
+
+.img_2 {
+  padding-top: 20%;
+}
+
+.img_3 {
+  background-color: #1a1818;
+  padding: 10%;
+  text-align: left;
+  display: grid;
+  grid-template-columns: 1fr;
+  /* grid-template-rows: 1fr 1fr; */
+  gap: 3%;
+  margin-top: 15%;
+  padding-bottom: 55%;
+}
+
+.img-caption {
+  max-width: 80%;
+  margin: 6%;
+  margin-top: -8%;
+  margin-bottom: 5%;
+  font-size: 12px;
+  font-family: "josefin-sans", sans-serif;
+  font-style: normal;
+  color: #ecebe8;
+}
+
+.forside_st {
+  max-width: 100%;
+  height: auto;
+  padding: 5%;
+}
+
+.fade-in {
+  opacity: 0; /* Initially set the opacity to 0 */
+  transition: opacity 0.5s ease-in-out; /* Apply a transition for a smooth effect */
+}
+
+@media (min-width: 650px) {
+  h2 {
+    font-size: 440%;
+    margin-top: 8%;
+  }
+
+  h3 {
+    font-size: 40px;
+    color: #ecebe8;
+    font-family: "josefin-sans", sans-serif;
+    font-weight: normal;
+    line-height: 20px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .main_index {
+    padding: 0%;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5%;
+    padding: 7%;
+    padding-bottom: 20%;
+  }
+
+  .grid-item {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .text_1 {
+    z-index: 1000;
+    position: relative;
+  }
+
+  .grid-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .grid-item .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .grid-item:hover .overlay {
+    opacity: 1;
+  }
+
+  .grid-item .overlay a {
+    color: #ecebe8;
+    font-family: "josefin-sans", sans-serif;
+    text-decoration: none;
+    font-size: 30px;
+  }
+
+  .text_2 {
+    text-align: left;
+    margin-left: 20%;
+    margin-top: 10%;
+  }
+
+  .grid_1 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 5%;
+    margin-top: 5%;
+  }
+
+  .bottons {
+    display: grid;
+    padding: 40%;
+    gap: 20%;
+    /* position: relative; */
+    margin-top: 2%;
+    margin-bottom: -13%;
+    z-index: 999;
+  }
+
+  .hildur {
+    padding: 10%;
+  }
+
+  .om_mig {
+    max-width: 60%;
+    padding-top: 10%;
+  }
+
+  .img_2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* margin-top: -12%; */
+    padding: 5%;
+    margin-top: 5%;
+  }
+
+  .img_3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-bottom: 25%;
+    margin-top: 6%;
+  }
+
+  .p_grid {
+    order: 1;
+  }
+
+  .grid_3 {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 5%;
+    max-width: 80%;
+    margin: auto;
+    align-items: center;
+  }
+
+  .img-caption {
+    margin-top: -3%;
+    font-size: 13px;
+  }
+
+  .gul_line {
+    width: 20%;
+    height: 1%;
+  }
+}

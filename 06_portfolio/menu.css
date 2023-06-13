@@ -1,0 +1,187 @@
+/********** menu ********/
+
+.menu {
+  background-color: #f4ede400;
+  position: sticky;
+  width: 100%;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7px;
+}
+
+/* .logo img {
+  width: 900%;
+  height: 900%;
+  align-items: first baseline;
+  opacity: 80%;
+  margin-left: 20px;
+  
+  position: relative;
+  top: -15%;
+} */
+
+.menu nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 0.4rem;
+  gap: 17px;
+  overflow-x: auto;
+  margin-right: 50px;
+  text-align: right;
+}
+a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 11px;
+  color: #ecebe8;
+  font-family: "josefin-sans", sans-serif;
+  font-style: normal;
+}
+a:hover {
+  color: #2673ff;
+}
+
+a:active {
+  color: #2673ff;
+}
+
+.navbar {
+  margin-inline: 20px;
+  position: fixed;
+  top: 2%;
+  left: 72%;
+  color: #ffb000;
+}
+
+.logo_forside {
+  width: 281px;
+  margin-top: 159%;
+  position: absolute;
+}
+
+.elementor-sticky--effects .logo_img {
+  max-width: 40px;
+  width: 40px;
+  transition: 0.5s all ease-in-out;
+}
+
+.logo {
+  width: 45%;
+  margin-top: -2%;
+  margin-left: 3%;
+  position: absolute;
+}
+
+@media (min-width: 650px) {
+  .logo_forside {
+    width: 49%;
+    margin-top: 98%;
+    position: absolute;
+    margin-left: 5%;
+    transition: 0.4s;
+  }
+
+  /* #svg-container {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    transition: width 0.3s, height 0.3s;
+  } */
+
+  .menu {
+    background-image: linear-gradient(rgb(18, 17, 17), rgba(0, 0, 0, 0));
+    background-size: cover;
+    height: 100px;
+    position: fixed;
+    z-index: 10000;
+  }
+
+  a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ecebe8;
+    font-family: "josefin-sans", sans-serif;
+    font-style: normal;
+  }
+
+  a.active {
+    color: #2673ff;
+  }
+
+  .logo {
+    width: 14%;
+    margin-top: -37px;
+    margin-left: 2%;
+    position: fixed;
+  }
+
+  .navbar {
+    margin-inline: 20px;
+    position: fixed;
+    top: 4%;
+    left: 53%;
+    color: #ffb000;
+  }
+}
+
+/******footer*****/
+.footer {
+  background-color: #2673ff;
+  padding: 40px;
+  text-align: center;
+}
+
+.medier {
+  width: 35%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 7%;
+  margin: auto;
+  color: #1a1818;
+}
+
+.kontakt {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+@media (min-width: 650px) {
+  .footer {
+    padding: 100px;
+    position: relative;
+    z-index: 1000;
+  }
+
+  .medier {
+    width: 15%;
+    gap: 7%;
+  }
+
+  .logo_forside {
+    transition: all 0.5s ease-in-out; /* Apply a smooth transition effect */
+  }
+
+  .shrink {
+    transform: scale(0.4); /* Adjust the scale as desired when the logo shrinks */
+    margin-top: 33%;
+    margin-left: -11%;
+  }
+
+  .shrink .logo_img {
+    opacity: 0;
+  }
+
+  .shrink .logo {
+    opacity: 1;
+    width: 186%;
+    margin-top: -53px;
+    margin-left: -158%;
+    position: fixed;
+  }
+}

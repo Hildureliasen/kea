@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 249.86 272.36">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #ffb000;
+      }
+
+      .cls-3 {
+        letter-spacing: .03em;
+      }
+
+      .cls-4 {
+        letter-spacing: 0em;
+      }
+
+      .cls-5 {
+        letter-spacing: 0em;
+      }
+
+      .cls-2 {
+        font-family: AntipolVFRoman-WideBold, 'Antipol VF';
+        font-size: 77px;
+        font-variation-settings: 'wdth' 135, 'wght' 700, 'STCH' 1;
+        font-weight: 700;
+      }
+
+      .cls-2, .cls-6 {
+        isolation: isolate;
+      }
+    </style>
+  </defs>
+  <g id="Group_18" data-name="Group 18">
+    <g id="Prtflio" class="cls-6">
+      <text class="cls-2" transform="translate(0 114.78)"><tspan class="cls-5" x="0" y="0">P</tspan><tspan class="cls-3" x="51.9" y="0">r</tspan><tspan class="cls-4" x="91.55" y="0">tflio</tspan></text>
+    </g>
+    <rect id="Rectangle_22" data-name="Rectangle 22" class="cls-1" x="6.85" y="76.51" width="7.72" height="195.85"/>
+    <rect id="Rectangle_21" data-name="Rectangle 21" class="cls-1" x="167.86" y="-272.36" width="7.8" height="384"/>
+  </g>
+</svg>
